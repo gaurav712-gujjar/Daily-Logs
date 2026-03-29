@@ -1,0 +1,116 @@
+name: Daily Dev Note
+
+on:
+  schedule:
+    - cron: '30 3 * * *'  # Roz subah 9 baje IST (3:30 UTC)
+  workflow_dispatch:        # Manual trigger bhi kar sakte ho
+
+jobs:
+  upload-note:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Generate AI dev note
+        id: generate
+        run: |
+          TODAY=$(date +%Y-%m-%d)
+          DAY_NUM=$(date +%j)
+
+          TOPICS=(
+            "NumPy arrays and vectorized operations"
+            "Pandas DataFrames and data cleaning techniques"
+            "Matplotlib and Seaborn data visualization"
+            "Scikit-learn machine learning pipelines"
+            "Feature engineering and selection"
+            "Train test split and cross validation"
+            "Linear regression and its assumptions"
+            "Logistic regression for classification"
+            "Decision trees and how they work"
+            "Random forest and ensemble methods"
+            "Gradient boosting and XGBoost"
+            "K-Nearest Neighbors algorithm"
+            "Support Vector Machines"
+            "K-Means clustering"
+            "Principal Component Analysis"
+            "Natural Language Processing basics"
+            "TF-IDF and text vectorization"
+            "Neural networks and deep learning basics"
+            "Overfitting and regularization techniques"
+            "Confusion matrix and model evaluation metrics"
+            "ROC curve and AUC score"
+            "Handling missing data and outliers"
+            "Data normalization and standardization"
+            "Exploratory Data Analysis techniques"
+            "SQL for data science"
+            "Web scraping with BeautifulSoup"
+            "APIs and JSON data handling in Python"
+            "Time series analysis and forecasting"
+            "Recommendation systems"
+            "A B testing and hypothesis testing"
+            "Statistics for data science"
+            "Bayesian inference basics"
+            "Data pipelines and ETL processes"
+            "Model deployment with Flask"
+            "Docker for data science projects"
+          )
+
+          INDEX=$(( (10#$DAY_NUM + $(date +%Y)) % ${#TOPICS[@]} ))
+          TOPIC="${TOPICS[$INDEX]}"
+
+          RESPONSE=$(curl -s https://api.groq.com/openai/v1/chat/completions \
+            -H "Authorization: Bearer ${{ secrets.GROQ_API_KEY }}" \
+            -H "Content-Type: application/json" \
+            -d "{
+              \"model\": \"llama-3.3-70b-versatile\",
+              \"messages\": [
+                {
+                  \"role\": \"system\",
+                  \"content\": \"You are a data science student writing daily learning notes. Each note must be completely unique. Write in first person casual tone. Plain text only, no markdown, no bullet points, no headers.\"
+                },
+                {
+                  \"role\": \"user\",
+                  \"content\": \"Write a unique daily learning note (5-7 sentences) about $TOPIC. Today is $TODAY. Make it feel like a genuine personal learning diary entry. Include one specific thing you tried or discovered today.\"
+                }
+              ],
+              \"temperature\": 1.2,
+              \"max_tokens\": 300
+            }")
+
+          NOTE=$(echo "$RESPONSE" | python3 -c "import sys,json; print(json.load(sys.stdin)['choices'][0]['message']['content'])")
+          echo "$NOTE" > /tmp/note_content.txt
+          echo "topic=$TOPIC" >> $GITHUB_OUTPUT
+          echo "today=$TODAY" >> $GITHUB_OUTPUT
+
+      - name: Create note file
+        run: |
+          mkdir -p notes
+          DATE=$(date +%Y%m%d)
+          FILENAME="notes/note_${DATE}.txt"
+
+          {
+            echo "Dev Note - $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+            echo "========================================"
+            echo "Date     : ${{ steps.generate.outputs.today }}"
+            echo "Topic    : ${{ steps.generate.outputs.topic }}"
+            echo "========================================"
+            echo ""
+            cat /tmp/note_content.txt
+            echo ""
+          } > "$FILENAME"
+
+          echo "FILENAME=$FILENAME" >> $GITHUB_ENV
+
+      - name: Commit and push
+        run: |
+          git config user.name "gaurav gujjar"
+          git config user.email "gujjargaurav712@gmail.com"
+          git add .
+          if git diff --staged --quiet; then
+            echo "Koi change nahi"
+          else
+            git commit -m "📊 data science note - ${{ steps.generate.outputs.topic }} [$(date +'%d %b %Y')]"
+            git push
+          fi
