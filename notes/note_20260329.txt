@@ -1,0 +1,8 @@
+Dev Note - 2026-03-29T09:59:22Z
+========================================
+Date     : 2026-03-29
+Topic    : Principal Component Analysis
+========================================
+
+Today, 2026-03-29, I spent a significant amount of time diving deeper into Principal Component Analysis, and I have to say, it's fascinating to see how this technique can help reduce the dimensionality of complex datasets. As I worked through some practice problems, I started to really appreciate how PCA works by identifying the principal components that describe the most variance in the data. I tried applying PCA to a dataset I've been working with, and I was surprised to see how much more intuitive the data became after reducing it from 10 features to just 3. One thing that really stood out to me today was the importance of standardizing the data before applying PCA, as I discovered that if I didn't do this, my results were severely impacted by the scales of the different features. I realized that I had been neglecting this step in my previous attempts, which was likely causing a lot of the inconsistency in my results. Overall, I feel like I have a much better grasp on PCA now, and I'm excited to continue exploring its applications. By applying PCA correctly, I was able to identify some key patterns in the data that I hadn't noticed before, which was a great feeling.
+
