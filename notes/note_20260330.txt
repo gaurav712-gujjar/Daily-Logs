@@ -1,0 +1,8 @@
+Dev Note - 2026-03-30T05:37:47Z
+========================================
+Date     : 2026-03-30
+Topic    : Natural Language Processing basics
+========================================
+
+today is march 30 2026 and i spent most of my day reviewing the basics of natural language processing, trying to get a better grasp of the concepts that have been eluding me for a while now. i felt like i was just scraping the surface of everything, but then i stumbled upon this really insightful lecture on tokenization and suddenly it all started to click into place. one thing i tried today was using the nltk library to tokenize a simple sentence, which was surprisingly straightforward and helped me understand the process so much better. i was amazed at how easily i could separate words and punctuation, and it made me realize just how important this step is in any nlp pipeline. as i was experimenting with different sentences, i discovered that the library can even handle things like contractions and hyphenated words, which i had been wondering about earlier. overall it's been a great day of learning and i'm excited to dive deeper into the world of nlp, seeing where this newfound understanding takes me. i'm looking forward to exploring more libraries and techniques in the coming days, and hopefully i'll be able to start working on some real projects soon.
+
