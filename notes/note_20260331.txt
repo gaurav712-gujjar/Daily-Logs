@@ -1,0 +1,8 @@
+Dev Note - 2026-03-31T05:25:45Z
+========================================
+Date     : 2026-03-31
+Topic    : TF-IDF and text vectorization
+========================================
+
+Today, 2026-03-31, I spent a lot of time digging deeper into text vectorization and TF-IDF, I have to say it's a fascinating topic, the way it can take a large corpus of text and reduce it down to a matrix of numbers that can be analyzed is pretty cool. I was trying to wrap my head around how word importance is calculated in TF-IDF, it's not just about how often a word appears in a document but also how rare it is across the entire corpus. I tried applying TF-IDF to a dataset of movie reviews I've been playing with and discovered that it really helps to filter out common words like "the" and "and" that don't add much value to the analysis. What I found really interesting is that the TF-IDF vectorizer in scikit-learn has a parameter called max_features that limits the number of features in the resulting matrix, which can really help with computational efficiency. Today I experimented with different values for max_features and saw how it affected the results of my analysis, it was a really valuable exercise in understanding the trade-offs of working with high-dimensional data. By the end of the day I had a much better grasp on how TF-IDF works and I'm excited to apply it to some more real-world problems.
+
