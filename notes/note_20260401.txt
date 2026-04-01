@@ -1,0 +1,8 @@
+Dev Note - 2026-04-01T05:35:17Z
+========================================
+Date     : 2026-04-01
+Topic    : Neural networks and deep learning basics
+========================================
+
+I started diving into neural networks and deep learning basics today, and I'm really excited to see how far I can go with this. As of now, I have a basic understanding of how neural networks are structured, with layers of connected nodes that process and transmit information. Today I tried building a simple neural network using the TensorFlow library, and I was surprised by how easy it was to get started, even though I know I have a long way to go. I discovered that the key to getting the network to learn is to tune the hyperparameters, such as the learning rate and the number of hidden layers, which can be a bit of a challenge. I spent a few hours experimenting with different combinations of hyperparameters, and I was able to see some improvement in the network's performance, which was really motivating. What really struck me today was how neural networks can be used for both supervised and unsupervised learning tasks, which opens up a lot of possibilities for real-world applications. I'm looking forward to exploring more advanced techniques, such as convolutional neural networks and recurrent neural networks, in the coming days.
+
