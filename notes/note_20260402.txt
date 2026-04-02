@@ -1,0 +1,8 @@
+Dev Note - 2026-04-02T05:20:15Z
+========================================
+Date     : 2026-04-02
+Topic    : Overfitting and regularization techniques
+========================================
+
+As I continue to dive deeper into machine learning concepts, I found myself struggling with overfitting in my models, so I spent today focusing on regularization techniques to prevent this issue. I've been reading about L1 and L2 regularization, and I'm starting to get a better understanding of how they work, but I still have a lot to learn. Today, I tried implementing L1 regularization on a simple linear regression model I've been working on, and I was surprised to see how much of a difference it made in reducing overfitting. I discovered that using L1 regularization with a relatively small alpha value helped to eliminate some of the unnecessary features in my model, making it more generalizable to new data. This was a big breakthrough for me, and I'm excited to experiment with other regularization techniques, like dropout and early stopping, to see how they compare. I also realized that regularization is not a one-size-fits-all solution, and it's going to take some trial and error to find the right approach for each specific problem. Overall, today was a productive day, and I feel like I've made some real progress in understanding how to prevent overfitting in my models.
+
