@@ -1,0 +1,8 @@
+Dev Note - 2026-04-03T05:22:03Z
+========================================
+Date     : 2026-04-03
+Topic    : Confusion matrix and model evaluation metrics
+========================================
+
+today is 2026-04-03 and I spent most of the day digging into confusion matrices and model evaluation metrics, trying to get a better understanding of how to interpret the results of my machine learning models. I have to say, it's definitely a lot more complicated than I thought, but I'm slowly starting to get the hang of it. I was playing around with a simple binary classification model and I tried using a confusion matrix to evaluate its performance, which really helped me visualize the false positives and false negatives. one thing I discovered today was that the f1 score is a great way to get a balanced view of precision and recall, and it's especially useful when you're dealing with imbalanced datasets. I also realized that I need to be careful when choosing my evaluation metrics, because different metrics can give you very different ideas about how well your model is performing. I'm feeling pretty good about my progress so far, and I'm excited to keep learning and exploring more about model evaluation and how to use it to improve my models. I think tomorrow I'm going to dive into some more advanced metrics like auc-roc and see how they can be used to evaluate model performance.
+
