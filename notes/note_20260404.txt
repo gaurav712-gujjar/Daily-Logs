@@ -1,0 +1,8 @@
+Dev Note - 2026-04-04T05:09:29Z
+========================================
+Date     : 2026-04-04
+Topic    : ROC curve and AUC score
+========================================
+
+Today, 2026-04-04, I delved deeper into the world of evaluating classification models, specifically focusing on the ROC curve and the AUC score. I've been working on a project where I need to compare the performance of different models, and understanding the ROC curve has been really helpful. The ROC curve plots the true positive rate against the false positive rate at different thresholds, and it gives a nice visual representation of the model's performance. I tried plotting the ROC curve for a logistic regression model I built, and it was interesting to see how the curve changed as I adjusted the model's parameters. One thing I discovered today was that the AUC score can be interpreted as the probability that a randomly chosen positive instance will have a higher predicted probability than a randomly chosen negative instance, which is a really intuitive way to think about it. I also found out that an AUC score of 0.5 is essentially no better than random guessing, which serves as a nice baseline for evaluating my models. Overall, I feel like I have a better grasp on how to use the ROC curve and AUC score to evaluate and compare my models, which is a big win for my project.
+
