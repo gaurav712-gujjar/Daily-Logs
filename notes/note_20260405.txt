@@ -1,0 +1,8 @@
+Dev Note - 2026-04-05T05:25:25Z
+========================================
+Date     : 2026-04-05
+Topic    : Handling missing data and outliers
+========================================
+
+I'm still trying to wrap my head around handling missing data and outliers, it's definitely one of the trickier parts of data science. Today, I spent some time reading about different methods for dealing with missing values, like listwise deletion and mean imputation. I tried using the K-Nearest Neighbors imputation method on a dataset I've been working with, and it was actually really interesting to see how it changed the distribution of my data. I discovered that KNN imputation can be really sensitive to the number of neighbors you choose, so that's something I'll have to be careful about in the future. I also stumbled upon a useful python library called pyjanitor that has some great tools for handling missing data, I'm excited to play around with it more. Overall, I feel like I'm starting to get a better handle on how to handle missing data, but outliers are still a bit of a mystery to me. One thing I want to try next is using the interquartile range method to detect and remove outliers, we'll see how that goes.
+
