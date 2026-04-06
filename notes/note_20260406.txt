@@ -1,0 +1,8 @@
+Dev Note - 2026-04-06T05:37:55Z
+========================================
+Date     : 2026-04-06
+Topic    : Data normalization and standardization
+========================================
+
+Today was a pretty interesting day in my data science journey, I spent most of the afternoon going over data normalization and standardization techniques, trying to wrap my head around the differences between them. As I understand it now, normalization is all about scaling values to a common range, usually between 0 and 1, which is useful for algorithms that are sensitive to the scale of the data, like neural networks. On the other hand, standardization is about transforming the data to have a mean of 0 and a variance of 1, which is more useful for algorithms that are sensitive to the distribution of the data, like support vector machines. I tried applying both techniques to a sample dataset I've been working with, and what I discovered today is that standardization is way more effective in my case, because my data has a really skewed distribution. I'm still trying to figure out why that is, but I'm pretty excited to have discovered this key difference, it's going to help me a lot in my future projects. What's also interesting is that standardization seems to improve the accuracy of my model, I need to dig deeper into that.
+
