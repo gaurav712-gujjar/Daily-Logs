@@ -1,0 +1,8 @@
+Dev Note - 2026-04-07T05:26:23Z
+========================================
+Date     : 2026-04-07
+Topic    : Exploratory Data Analysis techniques
+========================================
+
+I spent most of today going over Exploratory Data Analysis techniques and I have to say it's really making me think about how I approach data in a whole new way. I've been working through some sample datasets and trying out different methods to get a feel for the data, like histograms and scatter plots. One thing I tried today that I hadn't done before was using a pair plot to visualize relationships between multiple variables, and it was amazing to see how it can help identify patterns that might be hard to spot otherwise. I was using a dataset about bike rentals and I discovered that the weather has a huge impact on the number of rentals, which makes sense but it's nice to have the data to back it up. As I was exploring the data, I also realized the importance of cleaning and preprocessing the data before diving into any analysis, it's really important to get that right. Today was a really helpful learning day and I'm excited to keep practicing and learning more about EDA techniques. I'm thinking about trying to apply some of these techniques to a project I've been working on in my free time, it'll be interesting to see how it all comes together.
+
