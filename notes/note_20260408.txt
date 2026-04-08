@@ -1,0 +1,8 @@
+Dev Note - 2026-04-08T05:26:45Z
+========================================
+Date     : 2026-04-08
+Topic    : SQL for data science
+========================================
+
+I've been trying to get more comfortable with SQL for my data science studies and today was a bit of a breakthrough day. I spent most of my time reviewing queries and practicing how to efficiently join tables. I discovered that using the EXPLAIN command can really help me understand how my queries are being executed, which is super useful for optimizing performance. I tried using it with one of my existing queries and was shocked to see how many unnecessary steps were being taken, allowing me to rewrite it and significantly speed it up. This feels like a huge deal for my project as I'm working with a pretty large dataset and every little bit of performance improvement helps. I'm looking forward to incorporating this new skill into my work and exploring more advanced query techniques. Today's discovery has definitely given me more confidence in my ability to write efficient and effective SQL queries.
+
