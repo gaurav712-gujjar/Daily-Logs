@@ -1,0 +1,8 @@
+Dev Note - 2026-04-09T05:28:47Z
+========================================
+Date     : 2026-04-09
+Topic    : Web scraping with BeautifulSoup
+========================================
+
+Today was a really interesting day in my data science class, we're learning about web scraping with BeautifulSoup and I'm totally fascinated by it. I've been wanting to try my hand at scraping a real website, so I spent some time trying to scrape quotes from a famous quotes website. I discovered that the website uses a lot of attributes in its html tags, which made it harder for me to pinpoint the exact data I needed. But I tried using the find_all method with a specific class name and it worked like a charm, I was able to extract all the quotes from the page. I also realized that some websites can be really tricky to scrape, they have measures in place to prevent bots from accessing their data, so I'll have to be careful about that in the future. One thing I tried today was using the attrs parameter in the find method to specify the exact attributes I'm looking for, it was really helpful in narrowing down my search. I'm excited to continue exploring the world of web scraping and see what other cool things I can discover.
+
