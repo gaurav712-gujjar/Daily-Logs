@@ -1,0 +1,8 @@
+Dev Note - 2026-04-10T05:37:57Z
+========================================
+Date     : 2026-04-10
+Topic    : APIs and JSON data handling in Python
+========================================
+
+Today was a really productive day as I finally got to dive deeper into handling JSON data from APIs in Python. I've been meaning to learn more about this for a while now, and I'm excited to see how it can be applied to real-world projects. I tried using the requests library to fetch data from a public API, and then used the json.loads function to parse the response into a Python dictionary. What I discovered today that really helped me out was the json.dump function, which allows you to write a Python object to a JSON file in a pretty and human-readable format. I was having some trouble figuring out how to structure my JSON data in a way that was easy to read, but using json.dump with the indent parameter set to 4 made all the difference. Now I can easily visualize and debug my JSON data, which is a huge relief. Overall, I feel like I made some great progress today and I'm looking forward to keeping at it tomorrow.
+
