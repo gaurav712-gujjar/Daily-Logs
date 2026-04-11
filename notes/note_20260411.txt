@@ -1,0 +1,8 @@
+Dev Note - 2026-04-11T05:12:16Z
+========================================
+Date     : 2026-04-11
+Topic    : Time series analysis and forecasting
+========================================
+
+I've been diving into time series analysis and forecasting for a while now, and today I learned more about the importance of stationarity in a time series dataset. I realized that if a dataset is not stationary, it can be really tough to make accurate predictions, which makes sense because stationarity implies that the statistical properties of the series remain constant over time. Today I tried using the Augmented Dickey-Fuller test to check for stationarity in a sample dataset, and I was surprised by how easy it was to implement in Python. I discovered that my dataset had a p-value of less than 0.05, which indicates that the null hypothesis of non-stationarity can be rejected, meaning my dataset is likely stationary. This is a big relief because now I can move on to modeling and forecasting with more confidence. I'm excited to explore more techniques, such as ARIMA and Prophet, to see which one works best for my project. Overall, today was a productive day and I feel like I have a better grasp of this complex topic, and I'm looking forward to continuing my learning journey tomorrow.
+
