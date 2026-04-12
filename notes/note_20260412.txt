@@ -1,0 +1,8 @@
+Dev Note - 2026-04-12T05:35:05Z
+========================================
+Date     : 2026-04-12
+Topic    : Recommendation systems
+========================================
+
+As of today, 2026-04-12, I've been diving deeper into recommendation systems and I have to say it's pretty fascinating how complex the algorithms can get. I've been reading up on different techniques and trying to get a better understanding of how they work. Today I spent some time experimenting with a simple collaborative filtering model on a movie ratings dataset and I was surprised by how well it performed, even with a relatively small set of users and ratings. I tried using a matrix factorization technique to reduce the dimensionality of the data, which seemed to improve the model's performance and reduce overfitting. What I discovered was that using a hybrid approach, combining user-based and item-based filtering, resulted in even better recommendations, which makes sense intuitively but was cool to see in practice. I'm excited to keep exploring and see where I can take this project, maybe adding some natural language processing to incorporate text-based reviews into the model. Overall, it's been a really productive day and I feel like I'm making some good progress in understanding the ins and outs of recommendation systems.
+
