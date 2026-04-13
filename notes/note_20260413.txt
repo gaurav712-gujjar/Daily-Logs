@@ -1,0 +1,8 @@
+Dev Note - 2026-04-13T06:01:16Z
+========================================
+Date     : 2026-04-13
+Topic    : A B testing and hypothesis testing
+========================================
+
+As I sit here on April 13, 2026, I'm reflecting on what I learned about A B testing and hypothesis testing, and I have to say, it's been an eye opener. Today I spent some time working through an example of how to apply hypothesis testing to the results of an A B test, trying to determine whether the difference in conversion rates between two versions of a website was statistically significant. What really stuck with me was the importance of formulating a clear null and alternative hypothesis before running the test, as this really guides the whole process. I tried using a Python library to calculate the p-value for the test, which was a bit tricky to get my head around at first, but it finally clicked when I realized that a low p-value indicates strong evidence against the null hypothesis. One thing I discovered today was that it's really easy to get misled by small sample sizes, and I caught myself making that mistake when I was working through the example. Luckily, I was able to recognize the error and go back to re-run the test with a larger sample size, which gave me much more reliable results. Overall, I feel like I've made some good progress in understanding how to apply hypothesis testing to A B testing, and I'm excited to keep learning about this topic.
+
