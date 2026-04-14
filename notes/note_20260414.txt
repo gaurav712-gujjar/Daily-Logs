@@ -1,0 +1,8 @@
+Dev Note - 2026-04-14T05:36:44Z
+========================================
+Date     : 2026-04-14
+Topic    : Statistics for data science
+========================================
+
+Today I dove back into statistics, trying to solidify my understanding of hypothesis testing, which is so crucial for data science. I spent a few hours reviewing the concepts of null and alternative hypotheses, and how to calculate p-values. I then tried working through some practice problems, and one thing that really clicked for me was how to correctly formulate a hypothesis test for a given research question. Specifically, I discovered that when dealing with a two-tailed test, I need to be careful about how I split the alpha level between the two tails, to ensure I'm not inflating the type I error rate. I worked through a problem where I had to test the difference in means between two groups, and I was able to correctly calculate the test statistic and p-value, which was a great confidence boost. It's amazing how much more intuitive these concepts are becoming, and I'm excited to keep practicing and refining my skills. Overall, it was a productive day and I feel like I made some real progress in my statistics learning journey.
+
