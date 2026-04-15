@@ -1,0 +1,8 @@
+Dev Note - 2026-04-15T05:36:30Z
+========================================
+Date     : 2026-04-15
+Topic    : Bayesian inference basics
+========================================
+
+Today I spent some time reviewing the basics of Bayesian inference and I have to say it's really starting to click for me. I've been trying to get a solid grasp on the concept of updating prior probabilities with new data to get posterior probabilities, and I think I'm finally getting the hang of it. One thing that really helped me understand this concept better was working through an example where I had to update the probability of it being sunny given that it's currently cloudy, it was a pretty simple example but it really helped solidify the idea in my head. As I was working through this example I discovered that the order in which you update your probabilities doesn't actually matter, which was a bit surprising to me at first but it makes sense when you think about it. I tried applying this to a few different scenarios and it seems to hold true, which is pretty cool. Overall I'm feeling pretty confident in my understanding of Bayesian inference now, and I'm excited to start applying it to more complex problems. I'm looking forward to diving deeper into this topic and exploring some of the more advanced concepts in the coming days.
+
