@@ -1,0 +1,8 @@
+Dev Note - 2026-04-17T05:39:51Z
+========================================
+Date     : 2026-04-17
+Topic    : Model deployment with Flask
+========================================
+
+Today was another day of diving into model deployment and I have to say it's been a wild ride so far. I've been trying to figure out how to use Flask to deploy my models and make them accessible through a web interface. I spent most of the day going through tutorials and online courses, trying to get a grasp of how Flask works and how I can integrate it with my machine learning models. One thing I tried today was creating a simple RESTful API using Flask that can take in user input and return predictions from my model, which was pretty cool. What I discovered was that Flask has a lot of built-in support for JSON data, which makes it really easy to work with machine learning models that output JSON-like data. I'm excited to keep working on this project and see where it takes me, hopefully I'll have a fully functional model deployment up and running soon. I also realized that I need to brush up on my frontend skills to make the web interface more user friendly, so that's my next focus.
+
