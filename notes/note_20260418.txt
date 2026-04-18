@@ -1,0 +1,8 @@
+Dev Note - 2026-04-18T05:23:02Z
+========================================
+Date     : 2026-04-18
+Topic    : Docker for data science projects
+========================================
+
+Today I spent some time learning about Docker and how it can be applied to data science projects, it's still fairly new to me but I can already see the benefits of using containers to ensure consistency across different environments. I've been doing some research on how to use Docker to deploy machine learning models and I discovered that there are some really useful pre-built images available on Docker Hub that can save a lot of time. One thing I tried today was creating a Docker container for a simple data science project using the popular jupyter datascience-notebook image, it was surprisingly easy to get up and running. I was able to access the jupyter notebook interface through my web browser and start working on a project in no time, it was really cool to see how everything worked seamlessly together. I also learned about the concept of volumes in Docker, which allows you to persist data even after a container is deleted, this is something I'll definitely be using in future projects. I'm excited to continue exploring Docker and see how it can improve my workflow as a data scientist. As of today, I feel like I have a good foundation to build on and I'm looking forward to trying out more advanced techniques.
+
