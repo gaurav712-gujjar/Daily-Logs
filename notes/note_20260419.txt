@@ -1,0 +1,8 @@
+Dev Note - 2026-04-19T05:40:29Z
+========================================
+Date     : 2026-04-19
+Topic    : NumPy arrays and vectorized operations
+========================================
+
+Today I learned more about NumPy arrays and how they can be used to perform vectorized operations, which is basically a fancy way of saying I can do the same operation on an entire array at once instead of having to loop through each element individually. This is huge for me because I'm used to working with regular python lists and having to write loops all the time, so it's nice to know there's a more efficient way. I spent some time playing around with different array methods and I discovered that the np.where function is really useful for conditional operations, like creating a new array where all the values are above or below a certain threshold. I tried using it to create a mask for an array of exam scores to identify students who are failing, and it worked really well. I'm excited to apply this to some real data and see what kind of insights I can gain. As of now, I feel like I have a good grasp on the basics of vectorized operations, but I know there's still a lot to learn.
+
