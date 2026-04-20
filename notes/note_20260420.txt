@@ -1,0 +1,8 @@
+Dev Note - 2026-04-20T06:01:29Z
+========================================
+Date     : 2026-04-20
+Topic    : Pandas DataFrames and data cleaning techniques
+========================================
+
+I spent most of today working with Pandas DataFrames and trying to get a handle on data cleaning techniques, it's crazy how much of a difference it can make to have a solid understanding of how to manipulate and preprocess data. I was working with a pretty messy dataset and I realized that I had been putting off dealing with the missing values, but today I dove in and started using the isnull function to identify where the issues were. One thing I tried today that was really helpful was using the fillna function to replace missing values with the mean or median of the respective column, it's amazing how much more robust my analysis is now. I also discovered that the drop_duplicates function can be super useful for getting rid of duplicate rows, which was a problem in my dataset. I feel like I'm finally starting to get the hang of this and it's really exciting to see my data start to take shape. Today was a bit of a breakthrough day for me, I'm excited to see where this newfound knowledge takes me. I'm looking forward to applying these skills to more complex datasets and seeing what other insights I can uncover.
+
