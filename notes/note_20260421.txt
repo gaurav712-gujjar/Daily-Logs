@@ -1,0 +1,8 @@
+Dev Note - 2026-04-21T05:39:29Z
+========================================
+Date     : 2026-04-21
+Topic    : Matplotlib and Seaborn data visualization
+========================================
+
+Today I spent a lot of time exploring different data visualization tools and I have to say I'm really digging into Matplotlib and Seaborn, they're so powerful and easy to use once you get the hang of it. I was trying to create a scatter plot with Matplotlib but the default colors were pretty boring, so I looked up how to customize them and discovered that you can use a cmap parameter to map different values to specific colors, it's pretty cool. I tried it out with a gradient of blues and it looks really nice, I feel like it adds a whole new level of depth to the plot. I also realized that Seaborn is built on top of Matplotlib, so anything you can do with Matplotlib you can also do with Seaborn, but Seaborn has some extra features that make it even easier to create informative and attractive statistical graphics. One specific thing I tried today was creating a pairplot with Seaborn, it's a plot that shows the relationship between multiple variables in a dataset and it's really helpful for understanding the data. I was able to create a pairplot with just a few lines of code and it's amazing to see how it can reveal patterns in the data that wouldn't be obvious otherwise. Overall I'm really excited to keep learning about these tools and seeing what other kinds of visualizations I can create.
+
