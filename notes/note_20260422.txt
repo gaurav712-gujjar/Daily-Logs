@@ -1,0 +1,8 @@
+Dev Note - 2026-04-22T05:38:04Z
+========================================
+Date     : 2026-04-22
+Topic    : Scikit-learn machine learning pipelines
+========================================
+
+I had a pretty productive day learning about Scikit-learn machine learning pipelines, and I'm excited to see how they can simplify my workflow. I've been struggling to keep track of all the different steps involved in my projects, from data preprocessing to model evaluation, and pipelines seem like a great way to organize everything. Today I tried using the Pipeline class from Scikit-learn to chain together a few different transformers and an estimator, and it was really cool to see how easily I could swap out different components and compare the results. One thing I discovered today that I wasn't expecting was that I can use the pipeline's named steps to access the intermediate results, which could be really useful for debugging or visualizing what's going on at each stage. I'm looking forward to experimenting more with this and seeing how it can help me build better models, as it's already saving me a lot of time and code. Overall, I'm feeling pretty confident about my ability to use pipelines to streamline my machine learning workflow, and I'm excited to apply this to some real-world problems. I spent a few hours reading the documentation and testing out some examples, and it was definitely time well spent.
+
