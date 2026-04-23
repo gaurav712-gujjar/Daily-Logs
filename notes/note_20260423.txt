@@ -1,0 +1,8 @@
+Dev Note - 2026-04-23T05:42:27Z
+========================================
+Date     : 2026-04-23
+Topic    : Feature engineering and selection
+========================================
+
+I spent most of the day diving into feature engineering and selection, trying to wrap my head around the different techniques used to create and choose the most relevant features for a model. I realized that it's not just about adding more features to the dataset, but about creating features that actually add value to the model. Today I tried implementing a technique called recursive feature elimination, which involves recursively eliminating the least important features until a specified number of features is reached. I discovered that this technique can be really useful for datasets with a large number of features, as it helps to reduce overfitting and improve model performance. I was surprised at how much of a difference it made in the model's accuracy, going from 80% to 92% after applying the recursive feature elimination. I'm excited to try out more feature engineering techniques and see how they impact my models. Overall, it's been a really insightful day and I feel like I'm getting a better grasp on the importance of feature engineering and selection in data science.
+
