@@ -1,0 +1,8 @@
+Dev Note - 2026-04-24T05:55:00Z
+========================================
+Date     : 2026-04-24
+Topic    : Train test split and cross validation
+========================================
+
+I spent most of today studying train test split and cross validation, trying to get a deeper understanding of how these concepts work in real-world machine learning applications. As of April 24, 2026, I can confidently say that I understand the basics of train test split, where I split my dataset into two parts, one for training the model and the other for testing it. However, I was having trouble understanding how cross validation works, so I decided to try it out with a small project I've been working on, and I discovered that using k-fold cross validation actually improved my model's performance by reducing overfitting. Today, I tried using sklearn's cross_val_score function, which made it really easy to implement cross validation, and the results were pretty encouraging. I noticed that the more folds I used, the more stable my model's performance was, which makes sense because it's essentially testing the model on more data. What really surprised me was how much of a difference it made to my model's accuracy, going from around 80% with just a simple train test split to over 90% with cross validation. I'm excited to experiment with cross validation more and see how it can help me build more robust machine learning models.
+
