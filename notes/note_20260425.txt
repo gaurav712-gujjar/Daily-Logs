@@ -1,0 +1,8 @@
+Dev Note - 2026-04-25T05:27:43Z
+========================================
+Date     : 2026-04-25
+Topic    : Linear regression and its assumptions
+========================================
+
+Today, 2026-04-25, I delved deeper into linear regression and its underlying assumptions, it's crazy how something as simple as a straight line can have so many nuances. I realize now that linear regression is not just about throwing data into a model and getting a line, there are actually several key assumptions that need to be met for the model to be valid. One of the biggest takeaways for me was the importance of checking for homoscedasticity, or the assumption that the variance of the residuals is constant across all levels of the predictor variable. I tried using a residual plot to check for homoscedasticity in a dataset I've been working with, and it was really interesting to see how the residuals were clustered in certain areas, indicating a potential issue with the assumption. I discovered that if this assumption is not met, it can lead to inaccurate predictions and confidence intervals, so it's definitely something I'll be keeping an eye on in future analyses.overall, I feel like I have a better grasp on when and how to apply linear regression, and what to watch out for when interpreting the results.
+
