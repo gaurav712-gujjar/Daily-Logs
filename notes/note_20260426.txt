@@ -1,0 +1,8 @@
+Dev Note - 2026-04-26T05:56:00Z
+========================================
+Date     : 2026-04-26
+Topic    : Logistic regression for classification
+========================================
+
+I'm still trying to wrap my head around Logistic regression for classification and I spent most of today going over notes and watching videos to try to solidify my understanding. As of today, 2026-04-26, I think I've finally started to get a grip on how the logistic function works and how it's used to predict probabilities. One thing I discovered today that really helped was using a simple example dataset to work through the math behind the Logistic regression equation, it made it so much clearer than just looking at the formula on its own. I tried using a dataset of student exam results to predict whether they would pass or fail based on their hours of study, and it was really interesting to see how the model performed. What really stood out to me was how important it is to have a good balance of positive and negative examples in the training data, if one class has a lot more instances than the other it can really throw off the model's performance. I'm excited to keep exploring Logistic regression and see how it can be applied to more complex problems, I feel like I'm just starting to scratch the surface of what it can do. Today was a bit of a breakthrough for me and I'm looking forward to seeing where this understanding takes me.
+
