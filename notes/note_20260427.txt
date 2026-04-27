@@ -1,0 +1,8 @@
+Dev Note - 2026-04-27T06:15:06Z
+========================================
+Date     : 2026-04-27
+Topic    : Decision trees and how they work
+========================================
+
+Today, 2026-04-27, I delved deeper into decision trees, a fundamental concept in machine learning, and I have to say it's really starting to click for me. I learned that decision trees work by recursively partitioning the data into smaller subsets based on the features of the data, with the goal of creating a tree-like model that can make predictions or classify data. What really helped solidify my understanding was when I tried implementing a decision tree from scratch in Python, using a simple dataset to classify whether someone would buy a car based on their age and income. As I worked through the code, I discovered that the key to creating an effective decision tree is to carefully select the feature to split at each node, which can significantly impact the accuracy of the model. I also found that visualizing the tree can be super helpful in understanding how the model is making its predictions, and I spent some time exploring different visualization tools to help me better understand the decision-making process. One specific thing I tried today was using the Gini impurity measure to determine the best feature to split at each node, and I was surprised by how much it improved the accuracy of my model. Overall, I'm feeling more confident in my ability to work with decision trees, and I'm excited to apply this knowledge to more complex projects in the future.
+
