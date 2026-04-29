@@ -1,0 +1,8 @@
+Dev Note - 2026-04-29T06:11:46Z
+========================================
+Date     : 2026-04-29
+Topic    : Gradient boosting and XGBoost
+========================================
+
+Today, 2026-04-29, I delved deeper into the realm of gradient boosting, focusing particularly on XGBoost, which has been a cornerstone in many machine learning models due to its efficiency and performance. I found it fascinating how gradient boosting algorithms work by iteratively adding trees that correct the errors of the previous trees, leading to an ensemble that is more accurate than any individual tree. What really caught my attention today was the concept of hyperparameter tuning in XGBoost, where small adjustments can significantly impact the model's performance. I spent a considerable amount of time experimenting with different combinations of hyperparameters to optimize the model for a binary classification task. One specific thing I tried today was adjusting the learning rate and the maximum depth of the trees simultaneously, which surprisingly led to a notable improvement in the model's accuracy on the validation set. I discovered that a lower learning rate coupled with a moderate tree depth allowed the model to generalize better without overfitting. As I continue to explore XGBoost and its capabilities, I'm becoming increasingly aware of the importance of thorough experimentation and patience in achieving optimal results.
+
