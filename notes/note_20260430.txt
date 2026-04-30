@@ -1,0 +1,8 @@
+Dev Note - 2026-04-30T06:16:21Z
+========================================
+Date     : 2026-04-30
+Topic    : K-Nearest Neighbors algorithm
+========================================
+
+I spent most of today studying the K-Nearest Neighbors algorithm and I have to say it's really starting to click for me. As of today, 2026-04-30, I feel like I've got a good grasp on the basics, but there's still a lot to learn. I decided to try implementing KNN from scratch in Python to see if I could get it working, and after a few hours of tinkering I finally got a simple version up and running. One thing I discovered today that really surprised me was how sensitive the algorithm is to the choice of k - I was experimenting with different values and found that even small changes could drastically affect the accuracy of my model. I tried using k=5 and k=10 on the same dataset and the results were almost opposite, which was really interesting to see. I'm excited to keep exploring this algorithm and see what other insights I can gain from it. Overall it's been a productive day and I'm feeling more confident in my understanding of KNN.
+
