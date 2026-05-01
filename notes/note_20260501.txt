@@ -1,0 +1,8 @@
+Dev Note - 2026-05-01T06:25:54Z
+========================================
+Date     : 2026-05-01
+Topic    : Support Vector Machines
+========================================
+
+I'm still wrapping my head around Support Vector Machines, but today was a breakthrough day for me, I finally understood how the soft margin works and it's actually pretty cool. I was going through some lectures and trying to implement it in python, it's amazing how a simple concept can be so powerful in classification problems. I tried to apply it to a simple dataset of iris flowers and the results were pretty accurate, the svm model was able to classify the flowers into their respective species with high precision. What really caught my attention was the effect of changing the kernel from linear to rbf, it completely changed the decision boundary and improved the accuracy of the model. Today I discovered that using a grid search to find the optimal values of c and gamma can make a huge difference in the performance of the model, I'll definitely be using this trick more often. I'm excited to explore more about svm and its applications in real world problems, it's amazing how much you can learn in just a few days of dedicated studying. Overall, it's been a great day and I feel like I've finally started to grasp the concepts of svm, can't wait to see what tomorrow brings.
+
