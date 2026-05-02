@@ -1,0 +1,8 @@
+Dev Note - 2026-05-02T05:53:35Z
+========================================
+Date     : 2026-05-02
+Topic    : K-Means clustering
+========================================
+
+Today I spent a lot of time going over K-Means clustering and I have to say it's really starting to click for me. I was trying to understand how the algorithm actually works under the hood and I think I finally figured out the part where it assigns each data point to the closest centroid. What's still a bit fuzzy for me is how to choose the optimal number of clusters, but I'm going to keep working on that. I tried running a K-Means clustering model on a sample dataset with different values for K and it was interesting to see how the results changed. One thing I discovered today was that if I visualize the clusters after each iteration, I can actually see the centroids moving towards the final positions, which is pretty cool. Overall, I'm feeling more confident about using K-Means in my projects, and I'm excited to try it out on some real-world data. I also stumbled upon a technique called the elbow method, which I think could help me solve the problem of choosing the right number of clusters.
+
