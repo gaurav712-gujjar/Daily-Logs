@@ -1,0 +1,8 @@
+Dev Note - 2026-05-03T06:15:55Z
+========================================
+Date     : 2026-05-03
+Topic    : Principal Component Analysis
+========================================
+
+I'm still getting the hang of Principal Component Analysis, but today was a pretty interesting day as I dove deeper into the topic. I realized that the key to understanding PCA is to grasp the concept of variance and how it relates to the principal components, it's all about capturing the variation in the data in a set of new orthogonal features. Today I tried applying PCA to a dataset I found online and I was surprised to see how it reduced the dimensionality of the data while retaining most of the information. I discovered that by using the explained_variance_ratio_ attribute in scikit-learn, I can easily see the proportion of variance explained by each principal component, which helps in deciding how many components to retain. This discovery helped me better understand how to interpret the results of PCA, and I'm excited to explore more applications of this technique in the coming days. As I continued to experiment with PCA, I started thinking about ways to visualize the results, and I'm looking forward to trying out some different methods tomorrow. Overall, it's been a productive day and I feel like I've made some progress in my understanding of PCA.
+
