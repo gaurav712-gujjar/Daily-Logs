@@ -1,0 +1,8 @@
+Dev Note - 2026-05-04T06:26:15Z
+========================================
+Date     : 2026-05-04
+Topic    : Natural Language Processing basics
+========================================
+
+Today is May 4th, 2026, and I'm feeling pretty excited about the progress I'm making in my Natural Language Processing studies. I've been trying to get a better grasp of the basics, and it's amazing how much there is to learn. I spent most of the day reading about tokenization, which is the process of breaking down text into individual words or tokens, and I have to say it's really interesting to see how different algorithms approach this task. One thing I tried today was using the NLTK library to tokenize a sample text, and I was surprised by how easy it was to get started. As I was experimenting, I discovered that the word_tokenize function in NLTK can handle punctuation in a really smart way, which was a nice surprise. I'm looking forward to digging deeper into the world of NLP and seeing what other tools and techniques I can learn about. Overall, it's been a great day of learning and I'm feeling more confident in my ability to work with text data.
+
