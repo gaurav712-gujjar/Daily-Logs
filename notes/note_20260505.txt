@@ -1,0 +1,8 @@
+Dev Note - 2026-05-05T06:02:11Z
+========================================
+Date     : 2026-05-05
+Topic    : TF-IDF and text vectorization
+========================================
+
+Today, 2026-05-05, I delved into the world of text vectorization and TF-IDF, which is a technique used to transform text into a numerical format that can be processed by machine learning algorithms. I have been struggling to understand how TF-IDF works, but after reading several articles and watching a few videos, I think I'm starting to get the hang of it. The key idea is to calculate the importance of each word in a document based on its frequency and rarity across the entire corpus, which helps to reduce the impact of common words like "the" and "and". Today, I tried using the TfidfVectorizer class from scikit-learn to vectorize a dataset of text reviews, and I was surprised by how easy it was to implement. What I discovered was that the vectorizer has a parameter called max_features, which limits the number of features to extract from the text data, and setting this parameter can significantly reduce the dimensionality of the resulting vectors. I also found that the vectorizer returns a sparse matrix, which can be more memory-efficient than a dense matrix, especially when dealing with large datasets. Overall, I'm excited to explore more about text vectorization and TF-IDF, and I'm looking forward to applying these techniques to my future projects.
+
